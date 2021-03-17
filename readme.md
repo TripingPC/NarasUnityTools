@@ -7,6 +7,10 @@ Specifically for the creation of avatars for VRChat and ChilloutVR.
 
 Download or clone this project and copy the `Nara` folder into your `Assets` folder in your Unity project.
 
+You need the Dynamic Bone asset present in your Unity project, even if you're only using fake gravity.
+
+**IMPORTANT:** Some add-ons such as [ComboGestureExpressions](https://github.com/hai-vr/combo-gesture-expressions-av3) will cause the editor scripts to fail compiling. (Installing this first seems to work.)
+
 ## Hierarchy improvements & context menus
 
 Gives a small icon in the hierarchy on gameobjects that contain dynamic bones (white/gray) or dynamic bone colliders (blue).
